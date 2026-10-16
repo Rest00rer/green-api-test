@@ -1,30 +1,34 @@
-# Green API test task — chat client
+# Тестовое задание Green API — чат-клиент
 
-A small TypeScript/Vite chat client built as a test task for the Green API service.
+Небольшой чат-клиент на TypeScript, React и Vite, выполненный в рамках тестового задания для Green API.
 
-## What is demonstrated
+## Что реализовано
 
-- a focused chat workflow in the browser;
-- integration with an external messaging API;
-- typed client-side state and API boundaries;
-- component-based UI structure and a lightweight Vite setup;
-- a separate architecture note in [ARCHITECTURE.md](./ARCHITECTURE.md).
+- базовый пользовательский сценарий чата в браузере;
+- интеграция с внешним API обмена сообщениями;
+- типизированное состояние на стороне клиента и границы взаимодействия с API;
+- компонентная структура интерфейса;
+- отдельное описание архитектурных решений в [ARCHITECTURE.md](./ARCHITECTURE.md).
 
-## Run locally
+## Запуск локально
 
-Requirements: Node.js 18+.
+Требуется Node.js 18+.
 
-1. Install dependencies: npm install
-2. Copy .env.example to .env.
-3. Fill in the Green API instance values locally. Do not commit credentials.
-4. Start the dev server: npm run dev
+1. Установить зависимости: `npm install`
+2. Скопировать `.env.example` в `.env`.
+3. Заполнить локальные значения Green API.
+4. Запустить проект: `npm run dev`
 
-The example environment file contains placeholders only. The repository does not include API keys, tokens or personal data.
+В репозитории находятся только тестовые значения и шаблон переменных окружения. API-ключи, токены и персональные данные не публикуются.
 
-## Scope
+## Объём работы
 
-This repository is a compact demonstration project rather than a production service. The implementation focuses on the requested chat flow and readable structure; production hardening, authentication policy and deployment configuration would be the next steps for a real release.
+Это компактное тестовое задание, а не production-сервис. Основной фокус — требуемый чат-сценарий, понятная структура кода и интеграция с API. Для промышленного запуска дополнительно потребовались бы усиленная авторизация, расширенная обработка ошибок, тесты, мониторинг и deployment-конфигурация.
 
-## Stack
+## Стек
 
-TypeScript · Vite · React · CSS
+TypeScript · React · Vite · CSS
+
+## Контекст
+
+Проект опубликован как отдельный пример выполнения тестового задания. Он не является самостоятельным коммерческим продуктом и не входит в список основных проектов портфолио.
